@@ -2,6 +2,16 @@
   display: flex;
 }
 
+.coltitle {
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.05em;
+
+  margin-bottom: 65px;
+}
+
 .collection__params {
   margin-left: 37px;
 }
