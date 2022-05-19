@@ -1,0 +1,110 @@
+.collection {
+  display: flex;
+}
+
+.collection__params {
+  margin-left: 37px;
+}
+
+.collection__params h3 {
+  margin-top: 30px;
+
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.05em;
+}
+
+.collection__params h4 {
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+
+  margin: 17px 0;
+}
+
+.t1 {
+  margin: 15px 0;
+}
+
+.t2 {
+  margin: 9px 0;
+}
+
+.collection__params_colors {
+  display: flex;
+
+  margin-top: 15px;
+}
+
+.color {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  margin-right: 22px;
+}
+
+.color:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.one {
+  background-color: #F2C38C;
+}
+.two {
+  background-color: #F39696;
+}
+.three {
+  background-color: #B8E282;
+}
+.four {
+  background-color: #E6AFEF;
+}
+.five {
+  background-color: #7EC6FB;
+}
+.six {
+  background-color: #F9EBBA;
+}
+
+.collection__params p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.collection__params select {
+  width: 263px;
+}
+
+.collection__params_price {
+  margin: 33px 0 48px 0;
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+}
+
+.collection__params a {
+  padding: 15px 175px;
+
+  text-decoration: none;
+  color: #000;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  letter-spacing: 0.05em;
+
+  border: 2px solid black;
+}
