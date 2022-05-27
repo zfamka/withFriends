@@ -126,3 +126,14 @@
 
   border: 2px solid black;
 }
+
+.collectionCards__items {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 150px;
+}
+
+.collectionCards__item {
+  border: 1px solid black;
+}
