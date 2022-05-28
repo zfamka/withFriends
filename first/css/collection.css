@@ -137,3 +137,48 @@
 .collectionCards__item {
   border: 1px solid black;
 }
+
+.collectionCards__image {
+  padding: 23px 23px 14px 23px;
+}
+
+.collectionCards__collectionName {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  padding: 0 0 14px 23px;
+}
+
+.collectionCards__item {
+  width: 23%;
+}
+
+.collectionCards__taste {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.05em;
+
+  padding: 0 0 28px 23px;
+}
+
+.collectionCards__item:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.collectionCards__more {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}

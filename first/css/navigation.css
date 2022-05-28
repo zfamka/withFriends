@@ -3,18 +3,16 @@
   justify-content: space-between;
 
   margin: 45px auto;
-
-  width: 1220px;
+  width: 1110px;
 }
 
 .nav__links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
   align-items: center;
   text-align: center;
-
   width: 1110px;
 }
 

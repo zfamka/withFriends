@@ -9,8 +9,13 @@
 }
 
 .container {
-  width: 1110px;
+  width: 1130px;
   margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav {
+  padding: 0 10px;
 }
 
 /* font-family: 'Montserrat', sans-serif;
