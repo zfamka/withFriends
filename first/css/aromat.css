@@ -1,0 +1,19 @@
+.aromat {
+  margin-bottom: 100px;
+}
+
+.aromat__title {
+  margin-bottom: 68px;
+}
+
+.aromat__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.aromat__info {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
