@@ -17,3 +17,39 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
+
+.aromat__info {
+  position: relative;
+  transition: 0.2s linear all;
+}
+
+.aromat__info-image {
+  position: absolute;
+  left: 200px;
+  top: 12px;
+  transition: linear 0.2s all;
+  cursor: pointer;
+}
+
+.aromat__info:hover .aromat__info-image{
+  left: 75%;
+  transition: linear 0.2s all;
+}
+
+.aromat__info:hover{
+  transition: 0.2s linear all;
+  background-color: rgb(182, 243, 121);
+}
+
+.aromat__info-text {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+}
