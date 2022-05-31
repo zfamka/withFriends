@@ -3,7 +3,7 @@
 }
 
 .aromat__title {
-  margin-bottom: 68px;
+  margin-bottom: 18px;
 }
 
 .aromat__items {
@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.aromat__item {
+  padding-top: 50px;
+  width: 21.8%;
+}
 
 .aromat__info {
   border-top: 1px solid black;
@@ -43,7 +47,7 @@
 
 .aromat__info-text {
   display: block;
-  padding: 10px;
+  padding: 10px 0;
   text-decoration: none;
   color: black;
   font-family: 'Montserrat';
@@ -51,5 +55,25 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
+  letter-spacing: 0.05em;
+}
+
+.aromat__more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: 48px;
+  width: 21.8%;
+  cursor: pointer;
+}
+
+.aromat__more p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
   letter-spacing: 0.05em;
 }
