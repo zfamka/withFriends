@@ -7,4 +7,27 @@
 .form__footer {
   grid-column-start: 1;
   grid-column-end: 3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__email button {
+  display: block;
+}
+
+.form__image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding-left: 140px;
+}
+
+.img1 {
+  justify-self: end;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.img2 {
+  padding-right: 30px;
 }
