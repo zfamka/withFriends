@@ -2,6 +2,7 @@
 @import url(header_main.css);
 @import url(collection.css);
 @import url(aromat.css);
+@import url(form.css);
 
 * {
   box-sizing: border-box;

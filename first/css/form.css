@@ -1,0 +1,10 @@
+.form__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.form__footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
