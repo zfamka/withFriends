@@ -97,8 +97,31 @@
 .form__email input {
   width: 350px;
   margin-top: 82px;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 40px;
+  background: #FCF3E8;
+}
+
+.form__email input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #BBBBBB;
 }
 
 .form__email button {
   margin-top: 70px;
+  width: 350px;
+  background: #FCF3E8;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  padding: 10px 0;
 }
