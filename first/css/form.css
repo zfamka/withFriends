@@ -1,7 +1,11 @@
+.form {
+  margin-bottom: 100px;
+}
+
 .form__inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 .form__footer {
