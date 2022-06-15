@@ -3,6 +3,7 @@
 @import url(collection.css);
 @import url(aromat.css);
 @import url(form.css);
+@import url(footer.css);
 
 * {
   box-sizing: border-box;

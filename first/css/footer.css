@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  background: #FCF3E8;
+}
+
+.footer__info {
+  display: flex;
+}
