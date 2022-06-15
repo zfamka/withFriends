@@ -1,0 +1,10 @@
+@media screen and (max-width: 1400px) {
+  .footer_title {
+    display: none;
+  }
+  .footer {
+    width: 1130px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}

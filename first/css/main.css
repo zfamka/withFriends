@@ -4,6 +4,7 @@
 @import url(aromat.css);
 @import url(form.css);
 @import url(footer.css);
+@import url(media.css);
 
 * {
   box-sizing: border-box;

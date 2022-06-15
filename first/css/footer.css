@@ -1,8 +1,72 @@
 .footer {
   display: flex;
   background: #FCF3E8;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__info {
   display: flex;
+}
+
+.footer_title {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding-right: 70px;
+  cursor: pointer;
+}
+
+.footer__collection {
+  display: flex;
+  align-items: center;
+}
+
+.footer__collection ul {
+  padding: 0 25px;
+  list-style: none;
+}
+
+.footer__aboutUs ul {
+  padding: 0 25px;
+  list-style: none;
+}
+
+.footer__collection-title, .footer__aboutUs-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 22px 0;
+  cursor: pointer;
+}
+
+.footer__collection-brand, .footer__aboutUs-info {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-bottom: 22px;
+  cursor: pointer;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: flex-end;
+  height: 294px;
+  padding-bottom: 20px;
+}
+
+.footer__inner img {
+  padding: 0 5px;
 }
